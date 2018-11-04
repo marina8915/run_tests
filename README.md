@@ -8,16 +8,17 @@ Add this line to your application's Gemfile:
 ```ruby
 gem 'run_tests'
 ```
-
-Or install it yourself as:
-```ruby
-gem install run_tests
-```
-Or add this line to your application's Gemfile:
+Or :
 
 ```ruby
 gem 'run_tests', git: 'https://github.com/marina8915/run_tests.git'
 ```
+
+Or install it yourself as:
+
+    $ gem install run_tests
+
+
 
 And then execute:
 
