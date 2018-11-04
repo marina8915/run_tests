@@ -5,6 +5,20 @@ Gem for check and run tests.
 ## Installation
 
 Add this line to your application's Gemfile:
+```ruby
+gem 'test'
+```
+
+And then execute:
+```ruby
+bundle
+```
+
+Or install it yourself as:
+```ruby
+gem install test
+```
+Or add this line to your application's Gemfile:
 
 ```ruby
 gem 'test', git: 'https://github.com/marina8915/test.git'
@@ -28,7 +42,7 @@ Test.assert(expected: result1, actual: result2)
 
 Run tests, change 'Task' on your class:
 ```ruby
-Test.run_tests(test_class: Task.new.class, tests: Task.new)
+Test.run_tests(test_class: Task, tests: Task.new)
 ```
 
 ## Development
