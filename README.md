@@ -26,7 +26,7 @@ And then execute:
 ## Usage
 
 ```ruby
-require 'run_tests'
+require 'test'
 ```
 Check test:
 ```ruby
