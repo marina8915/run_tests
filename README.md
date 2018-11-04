@@ -6,7 +6,7 @@ Gem for check and run tests.
 
 Add this line to your application's Gemfile:
 ```ruby
-gem 'test'
+gem 'run_tests'
 ```
 
 And then execute:
@@ -16,12 +16,12 @@ bundle
 
 Or install it yourself as:
 ```ruby
-gem install test
+gem install run_tests
 ```
 Or add this line to your application's Gemfile:
 
 ```ruby
-gem 'test', git: 'https://github.com/marina8915/test.git'
+gem 'run_tests', git: 'https://github.com/marina8915/run_tests.git'
 ```
 
 And then execute:
@@ -31,7 +31,7 @@ And then execute:
 ## Usage
 
 ```ruby
-require 'test'
+require 'run_tests'
 ```
 Check test:
 ```ruby
