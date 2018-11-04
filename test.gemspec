@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "test/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "test"
+  spec.name          = "run_tests"
   spec.version       = Test::VERSION
   spec.authors       = ["marina8915"]
   spec.email         = ["nonalatus@ukr.net"]
 
   spec.summary       = %q{Gem for check and run tests.}
-  spec.homepage      = "https://github.com/marina8915/test"
+  spec.homepage      = "https://github.com/marina8915/run_tests"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.
