@@ -11,9 +11,10 @@ module Test
   # run all methods -> tests_array:, instance -> tests:
   # method without parameters
 
-  def self.run_tests(tests_array:, tests:)
+  def self.run_tests(test_class:, tests:)
+    tests_array = test_class.instance_methods(false)
     tests_array.each do |test_method|
-      tests.send(test_method)
+      puts tests.send(test_method)
     end
   end
 end
