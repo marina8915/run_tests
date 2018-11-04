@@ -9,11 +9,6 @@ Add this line to your application's Gemfile:
 gem 'run_tests'
 ```
 
-And then execute:
-```ruby
-bundle
-```
-
 Or install it yourself as:
 ```ruby
 gem install run_tests
