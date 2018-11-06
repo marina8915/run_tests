@@ -12,7 +12,7 @@ module Test
   # method without parameters
 
   def self.run_tests(test_class:, tests:)
-    tests_array = test_class.instance_methods(false)
+    tests_array = test_class.methods(false)
     tests_array.each do |test_method|
       puts tests.send(test_method)
     end
